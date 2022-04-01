@@ -1,0 +1,33 @@
+.question-page-container{
+
+}
+
+.question{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.option-btn{
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.option-btn:focus{
+    background-color:var(--danger-clr);
+    color: var(--white);
+}
+
+.write-option:focus{
+    background-color:var(--success-clr);
+    color: var(--white);
+}
+
+.que-submit-btn{
+    display: block;
+    margin: 5rem auto;
+}

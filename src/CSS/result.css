@@ -1,0 +1,9 @@
+.show-selected{
+    background-color: var(--danger-clr);
+    color: var(--white);
+}
+
+.show-right{
+    background-color: var(--success-clr);
+    color: var(--white);
+}
