@@ -1,0 +1,26 @@
+.navbar{
+    background-color: var(--black);
+}
+
+.brand-name, .navbar-icon{
+    color: var(--white);
+}
+
+.brand-name, .navbar-icon{
+    margin:1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.navbar-right{
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+.brang-icon{
+    width: 5rem;
+    height: auto;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+

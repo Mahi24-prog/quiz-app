@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import "https://jackpotui.netlify.app/style.css";
+@import url("./CSS/flex.css");
+@import url("./CSS/text.css");
+@import url("./CSS/navbar.css");
+@import url("./CSS/questions.css");
+@import url("./CSS/result.css");
+@import url("./CSS/rule.css");
+@import url("./CSS/quiz-type.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --primary-dark-color: #db5660;
+    --primary-light-color: #e7c0c4;
+    --secondary-color:#1f2937;
+    --black : #222222;
+    --white:white;
+    --dark-gray:#7f8c8d;
+    --light-gray:#E5E5E5;
+
+    --success-clr:#5cb85c;
+    --danger-clr:#d9534f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Media Query for Responsible text size and screen  */
+html{
+    font-size: 62.5%;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width:998px){
+    html{
+        font-size: 58%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width:768px){
+    html{
+        font-size: 40%;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(max-width:640px){
+    html{
+        font-size: 38%;
+    }
+}
+
+@media(max-width:480px){
+    #featured-categories .categories-wrapper .category{
+        width: 50rem;
+    }
 }
