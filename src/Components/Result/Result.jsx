@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Result = () => {
   return (
     <>
@@ -28,9 +28,10 @@ const Result = () => {
                     <button class="btn-outline-secondary btn outline-btn option-btn">Kapil Dev</button>
                 </div>
             </div>
-
-            <button class="btn-success btn que-submit-btn">Go to Home</button>
-
+            
+            <Link to="/">
+                <button class="btn-success btn que-submit-btn">Go to Home</button>
+            </Link>
         </div>
     </>
   )

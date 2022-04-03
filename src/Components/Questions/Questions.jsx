@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Questions = () => {
   return (
@@ -24,9 +25,9 @@ const Questions = () => {
                     <button class="btn-outline-secondary btn outline-btn option-btn">Kapil Dev</button>
                 </div>
             </div>
-
-            <button class="btn-success btn que-submit-btn">Submit</button>
-
+            <Link to="/result">
+                <button class="btn-success btn que-submit-btn">Submit</button>
+            </Link>
         </div>
     </>
   )

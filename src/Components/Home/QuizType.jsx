@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const QuizType = () => {
     return (
@@ -12,7 +13,9 @@ const QuizType = () => {
                                 <p className="card-subtitle sm-text gray-text">Test your knowledge of cricket with this fun and free Jackpot Cricket Quiz. </p>
                             </div>
                             <div className="card-footer">
-                                <button className="card-btn-primary">Play Quiz</button>
+                                <Link to="/questions">
+                                    <button className="card-btn-primary">Play Quiz</button>
+                                </Link>
                             </div>
                     </div>
                 </div>
@@ -24,7 +27,9 @@ const QuizType = () => {
                                 <p className="card-subtitle sm-text gray-text">Test your football trivia knowledge now! Here's our best ever football quiz</p>
                             </div>
                             <div className="card-footer">
-                                <button className="card-btn-primary">Play Quiz</button>
+                                <Link to="/questions">
+                                    <button className="card-btn-primary">Play Quiz</button>
+                                </Link>
                             </div>
                     </div>
                 </div>
